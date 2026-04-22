@@ -100,14 +100,38 @@ La opción “Consultar grupo Sisbén” es un servicio que le permite al ciudad
    <img width="938" height="478" alt="image" src="https://github.com/user-attachments/assets/ef47b7d9-9831-4d53-81bd-53ef6858b33e" />
    <img width="968" height="217" alt="image" src="https://github.com/user-attachments/assets/49101230-0c5e-4764-ac85-d5e562e46d0e" />
    <img width="972" height="216" alt="image" src="https://github.com/user-attachments/assets/00b4457b-f34e-494e-90c5-3d7ec3a06eab" />
-   <img width="1208" height="816" alt="image" src="https://github.com/user-attachments/assets/676581d2-63c1-48f8-85e7-db0596ac61c7" />
    <img width="713" height="431" alt="image" src="https://github.com/user-attachments/assets/2256026a-e2b1-4f63-a797-8269c2aad3da" />
-
 
    **Resultado Final:** EXITOSO
    
 4. Prueba de Usabilidad o Validación Visual:
-5. Prueba Smoke:
+
+    **ID:** PU001
+
+    **Objetivo:** Validar claridad visual y experiencia de usuario al realizar la consulta
+   
+    **Precondiciones:** Ninguna
+   
+    **Pasos:**
+   
+    1. Ir a la página del Sisbén
+    2. Hacer clic en la opción “Consulta tu grupo Sisbén”
+    3. Revisar que la información y los campos presentados sean claros y no generen confisiuón al usuario
+    
+   
+    **Resultado Esperado:** La información deber ser clara. Las opciones deben ser fáciles de encontrar. No debe haber campos adicionales que puedan generar confusión.
+
+    **Resultado Obtenido:** La información es clara. Las opciones son fáciles de encontrar. No hay campos adicionales que puedan generar confusión.
+   
+   <img width="1592" height="384" alt="image" src="https://github.com/user-attachments/assets/2f592ead-e9e8-4189-ac48-bc5aef1e8fef" />
+   <img width="938" height="478" alt="image" src="https://github.com/user-attachments/assets/ef47b7d9-9831-4d53-81bd-53ef6858b33e" />
+   <img width="968" height="217" alt="image" src="https://github.com/user-attachments/assets/49101230-0c5e-4764-ac85-d5e562e46d0e" />
+   <img width="972" height="216" alt="image" src="https://github.com/user-attachments/assets/00b4457b-f34e-494e-90c5-3d7ec3a06eab" />
+   <img width="713" height="431" alt="image" src="https://github.com/user-attachments/assets/2256026a-e2b1-4f63-a797-8269c2aad3da" />
+
+   **Resultado Final:** EXITOSO
+   
+6. Prueba Smoke:
 
 
 # Parte 2 – Documentación de bugs reales
