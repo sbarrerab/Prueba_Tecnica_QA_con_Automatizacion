@@ -1,5 +1,5 @@
 # Contexto 
-**Portal Público Seleccionado:** [https://www.colpensiones.gov.co](https://www.sisben.gov.co/Paginas/landing.html)
+**Portal Público Seleccionado:** https://www.sisben.gov.co/Paginas/landing.html
 
 # Parte 1 – Exploración y diseño de pruebas
 **Funcionalidad Pública Seleccionada:** Consultar grupo Sisbén
@@ -13,24 +13,28 @@ La opción “Consultar grupo Sisbén” es un servicio que le permite al ciudad
    
     **ID:** PF001
 
-    **Objetivo:** Validar que el sistema redirija al apartado de PQRSD
+    **Objetivo:** Validar que el sistema permita realizar la consulta socioeconómica en el apartado "Consulta tu grupo Sisbén"
    
     **Precondiciones:** Ninguna
    
     **Pasos:**
    
     1. Ir a la página del Sisbén
-    2. Desplegar la opción de "Atención al Ciudadano"
-    3. Hacer clic en la opción “Peticiones, quejas, reclamos, solicitudes y denuncias”
-    4. Hacer clic en la opción “aquí” del titulo *Registra tu PQRSD*
+    2. Hacer clic en la opción “Consulta tu grupo Sisbén”
+    3. Hacer clic en la opción “Tipo de documento” y seleccionar el tipo de documento correspondiente
+    4. Ingresar el Número de Documento correctamente
+    5. Dar clic en el botón [Consultar]
+    
    
-    **Resultado Esperado:** El sistema debe redirigir al formulario de radicación de PQRSD.
+    **Resultado Esperado:** El sistema debe mostrar en pantalla la información de Sisbén relaciona con el documento consultado.
 
-    **Resultado Obtenido:** El sistema redirije al formulario de radicación de PQRSD.
-
-   <img width="1788" height="551" alt="image" src="https://github.com/user-attachments/assets/0f4ba79c-b439-4902-aaff-16ddb129ad10" />
-   <img width="845" height="618" alt="image" src="https://github.com/user-attachments/assets/4ea5ab67-786b-4595-a87a-0b1f28e479a3" />
-   <img width="1693" height="1392" alt="image" src="https://github.com/user-attachments/assets/d97d9407-bad2-4894-ab08-b18624d04a42" />
+    **Resultado Obtenido:** El sistema muestra en pantalla la información de Sisbén relaciona con el documento consultado.
+   
+   <img width="1592" height="384" alt="image" src="https://github.com/user-attachments/assets/2f592ead-e9e8-4189-ac48-bc5aef1e8fef" />
+   <img width="938" height="478" alt="image" src="https://github.com/user-attachments/assets/ef47b7d9-9831-4d53-81bd-53ef6858b33e" />
+   <img width="968" height="217" alt="image" src="https://github.com/user-attachments/assets/49101230-0c5e-4764-ac85-d5e562e46d0e" />
+   <img width="972" height="216" alt="image" src="https://github.com/user-attachments/assets/00b4457b-f34e-494e-90c5-3d7ec3a06eab" />
+   <img width="1208" height="816" alt="image" src="https://github.com/user-attachments/assets/676581d2-63c1-48f8-85e7-db0596ac61c7" />
 
    **Resultado Final:** EXITOSO
 
@@ -38,28 +42,40 @@ La opción “Consultar grupo Sisbén” es un servicio que le permite al ciudad
    
     **ID:** PF002
 
-    **Objetivo:** Validar que el sistema cuente con las guías necesarias para el maenjo del Portal Ciudadano
+    **Objetivo:** Validar que el sistema permita descargar la consulta socioeconómica realizada en el apartado "Consulta tu grupo Sisbén"
    
     **Precondiciones:** Ninguna
    
     **Pasos:**
    
     1. Ir a la página del Sisbén
-    2. Desplegar la opción de "Atención al Ciudadano"
-    3. Hacer clic en la opción “Conoce el Portal Ciudadano”
-    4. Validar que exista la información necesaria para el manejo del portal ciudadano.
+    2. Hacer clic en la opción “Consulta tu grupo Sisbén”
+    3. Hacer clic en la opción “Tipo de documento” y seleccionar el tipo de documento correspondiente
+    4. Ingresar el Número de Documento correctamente
+    5. Dar clic en el botón [Consultar]
+    6. Dar clic en el ícono de impresión
+    7. Valiar que se realice la descarga
+    8. Corroborar que la información descargada coincida con la información expuesta en la consulta
+    
    
-    **Resultado Esperado:** Se debe mostrar la información necesaria para el manejo del Portal Ciudadano.
+    **Resultado Esperado:** El sistema debe permitir descargar la información de Sisbén relaciona con el documento consultado.
 
-    **Resultado Obtenido:** El sistema presenta la información necesaria para el manejo del Portal Ciudadano.
+    **Resultado Obtenido:** El sistema permite descargar la información de Sisbén relaciona con el documento consultado.
+   
+   <img width="1592" height="384" alt="image" src="https://github.com/user-attachments/assets/2f592ead-e9e8-4189-ac48-bc5aef1e8fef" />
+   <img width="938" height="478" alt="image" src="https://github.com/user-attachments/assets/ef47b7d9-9831-4d53-81bd-53ef6858b33e" />
+   <img width="968" height="217" alt="image" src="https://github.com/user-attachments/assets/49101230-0c5e-4764-ac85-d5e562e46d0e" />
+   <img width="972" height="216" alt="image" src="https://github.com/user-attachments/assets/00b4457b-f34e-494e-90c5-3d7ec3a06eab" />
+   <img width="1208" height="816" alt="image" src="https://github.com/user-attachments/assets/676581d2-63c1-48f8-85e7-db0596ac61c7" />
 
-   <img width="1423" height="374" alt="image" src="https://github.com/user-attachments/assets/8dd35baf-f577-46c3-b5ec-d60a644b288d" />
-   <img width="1694" height="1298" alt="image" src="https://github.com/user-attachments/assets/9ca6abb0-d7e9-4490-bda8-65f4510361b3" />
+   <img width="1120" height="409" alt="image" src="https://github.com/user-attachments/assets/32fe9994-6f4d-4f01-aa26-86179b618da6" />
+   <img width="1218" height="805" alt="image" src="https://github.com/user-attachments/assets/933c6a45-9aa3-4773-8924-2835d02f076e" />
+
 
    **Resultado Final:** EXITOSO
     
 
-4. Prueba Negativa:
+3. Prueba Negativa:
 
     **ID:** PN001
 
@@ -87,8 +103,8 @@ La opción “Consultar grupo Sisbén” es un servicio que le permite al ciudad
 
    **Resultado Final:** EXITOSO
    
-6. Prueba de Usabilidad o Validación Visual:
-7. Prueba Smoke:
+4. Prueba de Usabilidad o Validación Visual:
+5. Prueba Smoke:
 
 
 # Parte 2 – Documentación de bugs reales
