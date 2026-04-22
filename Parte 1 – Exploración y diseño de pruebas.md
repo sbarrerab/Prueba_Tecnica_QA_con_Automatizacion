@@ -15,7 +15,7 @@ La opción “Consultar grupo Sisbén” es un servicio que le permite al ciudad
 
     **Tipo de Prueba:** Funcional
 
-    **Objetivo:** Validar que el sistema retorne correctamente la clasificación socioeconómica para un documento válido
+    **Objetivo:** ValiHacer que el sistema retorne correctamente la clasificación socioeconómica para un documento válido
    
     **Precondiciones:** Documento válido existente en la base de datos del Sisbén
    
@@ -25,11 +25,16 @@ La opción “Consultar grupo Sisbén” es un servicio que le permite al ciudad
     2. Hacer clic en la opción “Consulta tu grupo Sisbén”
     3. Hacer clic en la opción “Tipo de documento” y seleccionar el tipo de documento correspondiente
     4. Ingresar el Número de Documento correctamente
-    5. Dar clic en el botón [Consultar]
+    5. Hacer clic en el botón [Consultar]
        
-    **Resultado Esperado:** El sistema debe mostrar en pantalla la información de Sisbén relacionada con el documento consultado.
+    **Resultado Esperado:** El sistema debe mostrar en pantalla la información de Sisbén relacionada con el documento consultado:
+      - Nombre del ciudadano
+      - Grupo Sisbén
+      - Estado del registro
+      - Fecha de actualización (si aplica)
+      - Además, la información debe visualizarse sin errores y con formato legible.
 
-    **Resultado Obtenido:** El sistema muestra en pantalla la información de Sisbén relacionada con el documento consultado.
+    **Resultado Obtenido:** Se evidencia que el sistema muestra la información de Sisbén relacionada con el documento consultado.
    
    <img width="1592" height="384" alt="image" src="https://github.com/user-attachments/assets/2f592ead-e9e8-4189-ac48-bc5aef1e8fef" />
    <img width="938" height="478" alt="image" src="https://github.com/user-attachments/assets/ef47b7d9-9831-4d53-81bd-53ef6858b33e" />
@@ -45,7 +50,7 @@ La opción “Consultar grupo Sisbén” es un servicio que le permite al ciudad
 
     **Tipo de Prueba:** Funcional
 
-    **Objetivo:** Validar que el sistema permita descargar la consulta socioeconómica realizada para un documento válido
+    **Objetivo:** ValiHacer que el sistema permita descargar la consulta socioeconómica realizada para un documento válido
    
     **Precondiciones:** Documento válido existente en la base de datos del Sisbén
    
@@ -55,14 +60,20 @@ La opción “Consultar grupo Sisbén” es un servicio que le permite al ciudad
     2. Hacer clic en la opción “Consulta tu grupo Sisbén”
     3. Hacer clic en la opción “Tipo de documento” y seleccionar el tipo de documento correspondiente
     4. Ingresar el Número de Documento correctamente
-    5. Dar clic en el botón [Consultar]
-    6. Dar clic en el ícono de impresión
-    7. Validar que se realice la descarga
-    8. Corroborar que la información descargada coincida con la información expuesta en la consulta
+    5. Hacer clic en el botón [Consultar]
+    6. Hacer clic en el ícono de impresión
+    7. ValiHacer que se realice la descarga del archivo en formato PDF
+    8. Abrir el archivo descargado y corroborar que la información descargada coincida con la información expuesta en pantalla para la consulta
        
-    **Resultado Esperado:** El sistema debe permitir descargar la información de Sisbén relacionada con el documento consultado.
+    **Resultado Esperado:** El sistema debe permitir descargar la información en formato PDF, y la información consignada debe coincidir con la mostrada en pantalla, sin errores de contenido ni formato.
 
-    **Resultado Obtenido:** El sistema permite descargar la información de Sisbén relacionada con el documento consultado.
+      - Nombre del ciudadano
+      - Grupo Sisbén
+      - Estado del registro
+      - Fecha de actualización (si aplica)
+      - Además, la información debe visualizarse sin errores y con formato legible.
+
+    **Resultado Obtenido:** Se genera la descarga de la información en formato PDF, y la información consignada coincide con la mostrada en pantalla, sin errores de contenido ni formato.
    
    <img width="1592" height="384" alt="image" src="https://github.com/user-attachments/assets/2f592ead-e9e8-4189-ac48-bc5aef1e8fef" />
    <img width="938" height="478" alt="image" src="https://github.com/user-attachments/assets/ef47b7d9-9831-4d53-81bd-53ef6858b33e" />
@@ -82,7 +93,7 @@ La opción “Consultar grupo Sisbén” es un servicio que le permite al ciudad
 
     **Tipo de Prueba:** Negativa
 
-    **Objetivo:** Validar que el sistema maneje correctamente documentos no registrados en la base de datos
+    **Objetivo:** ValiHacer que el sistema maneje correctamente documentos no registrados en la base de datos
    
     **Precondiciones:** Campo de número de documento habilitado para ingreso de datos
    
@@ -91,12 +102,12 @@ La opción “Consultar grupo Sisbén” es un servicio que le permite al ciudad
     1. Ir a la página del Sisbén
     2. Hacer clic en la opción “Consulta tu grupo Sisbén”
     3. Hacer clic en la opción “Tipo de documento” y seleccionar el tipo de documento correspondiente
-    4. Ingresar el Número de Documento incorrectamente (Letras/Campo Vacío/Caracteres Especiales)
-    5. Dar clic en el botón [Consultar]
+    4. Ingresar un número de documento que no se encuentre registrado en la base de datos
+    5. Hacer clic en el botón [Consultar]
        
-    **Resultado Esperado:** El sistema debe validar la existencia del documento de entrada y mostrar un mensaje de error indicando que los datos ingresados no se encuentran registrados en la base de datos.
+    **Resultado Esperado:** El sistema debe indicar que el documento no se encuentra registrado mediante un mensaje claro al usuario, sin mostrar información de consulta.
 
-    **Resultado Obtenido:** El sistema valida la existencia del documetno y expone un mensaje de error indicando que los datos ingresados no existen en la base de datos.
+    **Resultado Obtenido:** Se evidencia que el sistema muestra un mensaje indicando que la información ingresada no existe en la base de datos.
    
    <img width="1592" height="384" alt="image" src="https://github.com/user-attachments/assets/2f592ead-e9e8-4189-ac48-bc5aef1e8fef" />
    <img width="938" height="478" alt="image" src="https://github.com/user-attachments/assets/ef47b7d9-9831-4d53-81bd-53ef6858b33e" />
@@ -113,7 +124,7 @@ La opción “Consultar grupo Sisbén” es un servicio que le permite al ciudad
 
     **Tipo de Prueba:** UX
 
-    **Objetivo:** Validar claridad visual y experiencia de usuario al realizar la consulta socioeconómica para un documento válido
+    **Objetivo:** ValiHacer claridad visual y experiencia de usuario al realizar la consulta socioeconómica para un documento válido
    
     **Precondiciones:** Equipo con acceso a internet
    
@@ -123,9 +134,13 @@ La opción “Consultar grupo Sisbén” es un servicio que le permite al ciudad
     2. Hacer clic en la opción “Consulta tu grupo Sisbén”
     3. Revisar que la información y los campos presentados sean claros y no generen confusión al usuario
        
-    **Resultado Esperado:** La información debe ser clara. Las opciones deben ser fáciles de encontrar. No debe haber campos adicionales que puedan generar confusión.
+    **Resultado Esperado:**
+    - Los campos deben estar claramente identificados
+    - El botón de acción debe ser fácilmente visible
+    - La interfaz debe evitar espacios en blanco excesivos que generen confusión
+    - La información debe mostrarse de forma inmediata tras la consulta
 
-    **Resultado Obtenido:** La información es clara. Las opciones son fáciles de encontrar. Se identifica uso excesivo de espacio en blanco que puede generar percepción de carga incompleta o error en la interfaz.
+    **Resultado Obtenido:** Se identifica uso excesivo de espacio en blanco después de la consulta, lo que puede generar percepción de error o carga incompleta.
    
    <img width="1592" height="384" alt="image" src="https://github.com/user-attachments/assets/2f592ead-e9e8-4189-ac48-bc5aef1e8fef" />
    <img width="1030" height="894" alt="image" src="https://github.com/user-attachments/assets/71b00c30-a7d2-4a0a-b03b-1d7fb33cb7db" />
@@ -144,7 +159,7 @@ La opción “Consultar grupo Sisbén” es un servicio que le permite al ciudad
 
     **Tipo de Prueba:** Smoke
 
-    **Objetivo:** Validar que la funcionalidad principal de consulta está operativa
+    **Objetivo:** ValiHacer que la funcionalidad principal de consulta está operativa
    
     **Precondiciones:** Documento existente en la base de datos del Sisbén
    
@@ -153,11 +168,11 @@ La opción “Consultar grupo Sisbén” es un servicio que le permite al ciudad
     1. Ir a la página del Sisbén
     2. Acceder a “Consulta tu grupo Sisbén”
     3. Ingresar datos válidos
-    4. Dar clic en el botón [Consultar]
+    4. Hacer clic en el botón [Consultar]
        
-    **Resultado Esperado:** El sistema debe permitir realizar la consulta básica y mostrar resultados sin errores.
+    **Resultado Esperado:** El sistema debe permitir realizar la consulta básica y mostrar los datos del ciudadano sin errores funcionales ni visuales.
    
-    **Resultado Obtenido:** El sistema permite realizar la consultas básicas y muestra resultados sin errores.
+    **Resultado Obtenido:** Permite realizar la consulta básica y muestra los datos del ciudadano sin errores funcionales ni visuales.
    
    <img width="1592" height="384" alt="image" src="https://github.com/user-attachments/assets/2f592ead-e9e8-4189-ac48-bc5aef1e8fef" />
    <img width="938" height="478" alt="image" src="https://github.com/user-attachments/assets/ef47b7d9-9831-4d53-81bd-53ef6858b33e" />
@@ -175,30 +190,34 @@ La opción “Consultar grupo Sisbén” es un servicio que le permite al ciudad
 
 **Título:** Falla en la primera consulta
 
-**Descripción:** Al realizar la primera consulta de la clasificación socioeconómica la página oculta los campos "Tipo de documento" y "Número de documento", y el botón [Consultar], pero no expone la información consultada. Se debe recargar la página y proceder a repetir la consulta para que la información le sea mostrada al usuario.
+**Descripción:** Al realizar la primera consulta, la página oculta los campos de entrada y el botón [Consultar], pero no muestra la información del ciudadano. Es necesario recargar la página y repetir la consulta para visualizar los resultados.
 
 **Pasos:** 
     1. Ir a la página del Sisbén
     2. Hacer clic en la opción “Consulta tu grupo Sisbén”
-    3. Hacer clic en la opción “Tipo de documento” y seleccionar el tipo de documento correspondiente
-    4. Ingresar el Número de Documento correctamente
-    5. Dar clic en el botón [Consultar]
+    3. Realizar una consulta por primera vez
+    4. Observar que los campos desaparecen tras hacer clic en [Consultar]
+    5. Verificar que no se muestra la información del ciudadano
     6. Recarga la página
-    7. Hacer clic en la opción “Tipo de documento” y seleccionar el tipo de documento correspondiente
-    8. Ingresar el Número de Documento correctamente
-    9. Dar clic en el botón [Consultar]
+    7. Repetir la consulta con los mismos datos
+    8. Observar que en el segundo intento sí se muestra la información
     
-**Resultado Esperado:** El sistema debe mostrar en pantalla la información de Sisbén relacionada con el documento consultado
+**Resultado Esperado:** El sistema debe mostrar la información del ciudadano correspondiente al documento consultado de forma inmediata, sin ocultar los campos de entrada ni requerir recarga de la página.
 
-**Resultado Obtenido:** El sistema al realizar la primera consulta oculta los campos "Tipo de documento" y "Número de documento", y el botón [Consultar], pero no expone la información consultada. Se debe recargar la página y proceder a repetir la consulta para que la información le sea mostrada al usuario.
+**Resultado Obtenido:** Al realizar la primera consulta oculta los campos "Tipo de documento" y "Número de documento", y el botón [Consultar], pero no expone la información consultada. Se debe recargar la página y proceder a repetir la consulta para que la información le sea mostrada al usuario.
 
 **Severidad:** Alta
 
-**Impacto:** Aunque el problema es de forma intermitente, puede causar que se duplique el número de peticiones en un lapso de tiempo, lo cual consume recursos adicionales innecesariamente.
+**Impacto:** 
+   - Puede provocar múltiples intentos de consulta, incrementando carga innecesaria en el sistema.
+   - El usuario puede interpretar que no está registrado en el sistema
+   - Genera desconfianza en la plataforma
 
 **Tipo de Bug:** Funcional / UI / Estado inconsistente
 
-**Frecuencia:** Intermitente
+**Frecuencia:** Intermitente - Ocurre en el primer intento tras cargar la página (observado en múltiples ocasiones)
+
+**Posible Causa:** Problema de manejo de estado en la interfaz, donde los campos se ocultan antes de recibir una respuesta válida del backend.
 
 **Navegador:** Edge 147 – Windows 11
 
@@ -222,13 +241,14 @@ La opción “Consultar grupo Sisbén” es un servicio que le permite al ciudad
 # Parte 4 – Uso de IA
 
 **¿En qué parte de la prueba usaste inteligencia artificial?**
-Se utilizó inteligencia artificial como apoyo en la elaboración del documento, principalmente para mejorar la redacción y asegurar una estructura alineada con estándares profesionales de QA. Adicionalmente, se empleó como herramienta de aprendizaje para reforzar conocimientos en el uso de Playwright, dado que es un framework con el cual no se cuenta aún con amplia experiencia.
+Se utilizó inteligencia artificial como apoyo en la elaboración del documento, principalmente para mejorar la redacción y asegurar una estructura alineada con estánHaceres profesionales de QA. Adicionalmente, se empleó como herramienta de aprendizaje para reforzar conocimientos en el uso de Playwright, dado que es un framework con el cual no se cuenta aún con amplia experiencia.
 
 **¿Qué hiciste tú directamente (criterio humano)?**
 1. Definición y diseño de los casos de prueba, basados en el análisis funcional del sistema.
 2. Ejecución manual de las pruebas, validando el comportamiento real de la aplicación.
 3. Elaboración de la documentación inicial de pruebas, incluyendo resultados y evidencias.
 4. Implementación del proceso de automatización de pruebas.
+5. Se validó manualmente que los resultados documentados correspondieran con el comportamiento real del sistema.
 
 **¿Qué riesgos ves en depender completamente de IA para QA?**
-Depender completamente de IA en QA implica varios riesgos. Aunque es muy útil para automatizar pruebas repetitivas y acelerar procesos, la IA no comprende completamente la experiencia de usuario ni el contexto real de las personas. Puede validar que algo funcione, pero no necesariamente que sea usable o adecuado. Además, puede pasar por alto escenarios no previstos o comportamientos atípicos. Por eso, el criterio humano sigue siendo clave para asegurar calidad real, no solo técnica sino también funcional y de experiencia.
+Depender completamente de IA en QA implica varios riesgos. Aunque es muy útil para automatizar pruebas repetitivas y acelerar procesos, la IA no comprende completamente la experiencia de usuario ni el contexto real de las personas. Puede valiHacer que algo funcione, pero no necesariamente que sea usable o adecuado. Además, puede pasar por alto escenarios no previstos o comportamientos atípicos. Por eso, el criterio humano sigue siendo clave para asegurar calidad real, no solo técnica sino también funcional y de experiencia.
