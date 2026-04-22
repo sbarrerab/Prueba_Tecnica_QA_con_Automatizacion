@@ -15,7 +15,7 @@ La opción “Consultar grupo Sisbén” es un servicio que le permite al ciudad
 
     **Tipo de Prueba:** Funcional
 
-    **Objetivo:** ValiHacer que el sistema retorne correctamente la clasificación socioeconómica para un documento válido
+    **Objetivo:** Validar que el sistema retorne correctamente la clasificación socioeconómica para un documento válido
    
     **Precondiciones:** Documento válido existente en la base de datos del Sisbén
    
@@ -50,7 +50,7 @@ La opción “Consultar grupo Sisbén” es un servicio que le permite al ciudad
 
     **Tipo de Prueba:** Funcional
 
-    **Objetivo:** ValiHacer que el sistema permita descargar la consulta socioeconómica realizada para un documento válido
+    **Objetivo:** Validar que el sistema permita descargar la consulta socioeconómica realizada para un documento válido
    
     **Precondiciones:** Documento válido existente en la base de datos del Sisbén
    
@@ -62,7 +62,7 @@ La opción “Consultar grupo Sisbén” es un servicio que le permite al ciudad
     4. Ingresar el Número de Documento correctamente
     5. Hacer clic en el botón [Consultar]
     6. Hacer clic en el ícono de impresión
-    7. ValiHacer que se realice la descarga del archivo en formato PDF
+    7. Validar que se realice la descarga del archivo en formato PDF
     8. Abrir el archivo descargado y corroborar que la información descargada coincida con la información expuesta en pantalla para la consulta
        
     **Resultado Esperado:** El sistema debe permitir descargar la información en formato PDF, y la información consignada debe coincidir con la mostrada en pantalla, sin errores de contenido ni formato.
@@ -93,7 +93,7 @@ La opción “Consultar grupo Sisbén” es un servicio que le permite al ciudad
 
     **Tipo de Prueba:** Negativa
 
-    **Objetivo:** ValiHacer que el sistema maneje correctamente documentos no registrados en la base de datos
+    **Objetivo:** Validar que el sistema maneje correctamente documentos no registrados en la base de datos
    
     **Precondiciones:** Campo de número de documento habilitado para ingreso de datos
    
@@ -124,7 +124,7 @@ La opción “Consultar grupo Sisbén” es un servicio que le permite al ciudad
 
     **Tipo de Prueba:** UX
 
-    **Objetivo:** ValiHacer claridad visual y experiencia de usuario al realizar la consulta socioeconómica para un documento válido
+    **Objetivo:** Validar claridad visual y experiencia de usuario al realizar la consulta socioeconómica para un documento válido
    
     **Precondiciones:** Equipo con acceso a internet
    
@@ -159,7 +159,7 @@ La opción “Consultar grupo Sisbén” es un servicio que le permite al ciudad
 
     **Tipo de Prueba:** Smoke
 
-    **Objetivo:** ValiHacer que la funcionalidad principal de consulta está operativa
+    **Objetivo:** Validar que la funcionalidad principal de consulta está operativa
    
     **Precondiciones:** Documento existente en la base de datos del Sisbén
    
@@ -241,7 +241,7 @@ La opción “Consultar grupo Sisbén” es un servicio que le permite al ciudad
 # Parte 4 – Uso de IA
 
 **¿En qué parte de la prueba usaste inteligencia artificial?**
-Se utilizó inteligencia artificial como apoyo en la elaboración del documento, principalmente para mejorar la redacción y asegurar una estructura alineada con estánHaceres profesionales de QA. Adicionalmente, se empleó como herramienta de aprendizaje para reforzar conocimientos en el uso de Playwright, dado que es un framework con el cual no se cuenta aún con amplia experiencia.
+Se utilizó inteligencia artificial como apoyo en la elaboración del documento, principalmente para mejorar la redacción y asegurar una estructura alineada con estándares profesionales de QA. Adicionalmente, se empleó como herramienta de aprendizaje para reforzar conocimientos en el uso de Playwright, dado que es un framework con el cual no se cuenta aún con amplia experiencia.
 
 **¿Qué hiciste tú directamente (criterio humano)?**
 1. Definición y diseño de los casos de prueba, basados en el análisis funcional del sistema.
@@ -251,4 +251,4 @@ Se utilizó inteligencia artificial como apoyo en la elaboración del documento,
 5. Se validó manualmente que los resultados documentados correspondieran con el comportamiento real del sistema.
 
 **¿Qué riesgos ves en depender completamente de IA para QA?**
-Depender completamente de IA en QA implica varios riesgos. Aunque es muy útil para automatizar pruebas repetitivas y acelerar procesos, la IA no comprende completamente la experiencia de usuario ni el contexto real de las personas. Puede valiHacer que algo funcione, pero no necesariamente que sea usable o adecuado. Además, puede pasar por alto escenarios no previstos o comportamientos atípicos. Por eso, el criterio humano sigue siendo clave para asegurar calidad real, no solo técnica sino también funcional y de experiencia.
+Depender completamente de IA en QA implica varios riesgos. Aunque es muy útil para automatizar pruebas repetitivas y acelerar procesos, la IA no comprende completamente la experiencia de usuario ni el contexto real de las personas. Puede Validar que algo funcione, pero no necesariamente que sea usable o adecuado. Además, puede pasar por alto escenarios no previstos o comportamientos atípicos. Por eso, el criterio humano sigue siendo clave para asegurar calidad real, no solo técnica sino también funcional y de experiencia.
