@@ -11,6 +11,8 @@ La opción “Consultar grupo Sisbén” es un servicio que le permite al ciudad
 
 1. Prueba Funcional:
    
+    **ID:** PF001
+
     **Objetivo:** Validar que el sistema redirija al apartado de PQRSD
    
     **Precondiciones:** Ninguna
@@ -22,19 +24,45 @@ La opción “Consultar grupo Sisbén” es un servicio que le permite al ciudad
     3. Hacer clic en la opción “Peticiones, quejas, reclamos, solicitudes y denuncias”
     4. Hacer clic en la opción “aquí” del titulo *Registra tu PQRSD*
    
-    **Resultado Esperado:** El sistema redirije al formulario de radicación de PQRSD.
+    **Resultado Esperado:** El sistema debe redirigir al formulario de radicación de PQRSD.
 
     **Resultado Obtenido:** El sistema redirije al formulario de radicación de PQRSD.
 
    <img width="1788" height="551" alt="image" src="https://github.com/user-attachments/assets/0f4ba79c-b439-4902-aaff-16ddb129ad10" />
-   
    <img width="845" height="618" alt="image" src="https://github.com/user-attachments/assets/4ea5ab67-786b-4595-a87a-0b1f28e479a3" />
-   
    <img width="1693" height="1392" alt="image" src="https://github.com/user-attachments/assets/d97d9407-bad2-4894-ab08-b18624d04a42" />
 
-3. Prueba Funcional:
-4. Prueba Negativa:
+   **Resultado Final:** EXITOSO
+
+2. Prueba Funcional:
    
+    **ID:** PF002
+
+    **Objetivo:** Validar que el sistema cuente con las guías necesarias para el maenjo del Portal Ciudadano
+   
+    **Precondiciones:** Ninguna
+   
+    **Pasos:**
+   
+    1. Ir a la página del Sisbén
+    2. Desplegar la opción de "Atención al Ciudadano"
+    3. Hacer clic en la opción “Conoce el Portal Ciudadano”
+    4. Validar que exista la información necesaria para el manejo del portal ciudadano.
+   
+    **Resultado Esperado:** Se debe mostrar la información necesaria para el manejo del Portal Ciudadano.
+
+    **Resultado Obtenido:** El sistema presenta la información necesaria para el manejo del Portal Ciudadano.
+
+   <img width="1423" height="374" alt="image" src="https://github.com/user-attachments/assets/8dd35baf-f577-46c3-b5ec-d60a644b288d" />
+   <img width="1694" height="1298" alt="image" src="https://github.com/user-attachments/assets/9ca6abb0-d7e9-4490-bda8-65f4510361b3" />
+
+   **Resultado Final:** EXITOSO
+    
+
+4. Prueba Negativa:
+
+    **ID:** PN001
+
     **Objetivo:** Validar que el sistema detecte inconsistencias en el correo al radicar PQRSD
    
     **Precondiciones:** Ninguna
@@ -48,18 +76,17 @@ La opción “Consultar grupo Sisbén” es un servicio que le permite al ciudad
     5. Ingresar Correo Electrónico correctamente
     6. Ingresar la Confirmación del Correo Electrónico incorrectamente
        
-    **Resultado Esperado:** El sistema notifica inconsistencia entre el Correo Electrónico y la Confirmación del Correo Electrónico.
+    **Resultado Esperado:** El sistema debe notificar al usuario inconsistencia entre el Correo Electrónico y la Confirmación del Correo Electrónico.
 
     **Resultado Obtenido:** El sistema notifica inconsistencia entre el Correo Electrónico y la Confirmación del Correo Electrónico.
    
    <img width="1788" height="551" alt="image" src="https://github.com/user-attachments/assets/0f4ba79c-b439-4902-aaff-16ddb129ad10" />
-   
    <img width="845" height="618" alt="image" src="https://github.com/user-attachments/assets/4ea5ab67-786b-4595-a87a-0b1f28e479a3" />
-   
    <img width="1691" height="506" alt="image" src="https://github.com/user-attachments/assets/bfb6e8e7-d4a3-4fff-b2a2-c6611fa96b10" />
-   
    <img width="1714" height="575" alt="image" src="https://github.com/user-attachments/assets/24d4bc35-1433-4922-9ee4-4b2f40fdb2bb" />
 
+   **Resultado Final:** EXITOSO
+   
 6. Prueba de Usabilidad o Validación Visual:
 7. Prueba Smoke:
 
