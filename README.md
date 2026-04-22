@@ -1,2 +1,8 @@
 # Prueba-t-cnica-QA-con-Automatizaci-n-
-Prueba técnica – QA con Automatización 
+
+## Contexto 
+**Portal Público Seleccionado:** https://www.colpensiones.gov.co
+
+## Parte 1 – Exploración y diseño de pruebas
+**Funcionalidad Pública Seleccionada:** 
+
