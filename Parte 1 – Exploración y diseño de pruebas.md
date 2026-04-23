@@ -238,10 +238,24 @@ La opción “Consultar grupo Sisbén” es un servicio que le permite al ciudad
 
 
 
+# Parte 3 – Automatización básica
+
+**Breve explicación del test:**
+
+## Automatización – Consulta Sisbén
+
+Este proyecto automatiza la validación de la consulta socioeconómica del Sisbén usando Playwright con Python.  
+Se ejecuta el caso PF001 (consulta exitosa con documento válido) y cubre escenarios reutilizables para pruebas negativas (PN001) y smoke (PS001).  
+El script navega, realiza la consulta, valida el resultado y captura evidencia automáticamente.  
+La automatización permite verificar el correcto funcionamiento de la funcionalidad principal del sistema.  
+
+
+
 # Parte 4 – Uso de IA
 
 **¿En qué parte de la prueba usaste inteligencia artificial?**
-Se utilizó inteligencia artificial como apoyo en la elaboración del documento, principalmente para mejorar la redacción y asegurar una estructura alineada con estándares profesionales de QA. Adicionalmente, se empleó como herramienta de aprendizaje para reforzar conocimientos en el uso de Playwright, dado que es un framework con el cual no se cuenta aún con amplia experiencia.
+
+Se utilizó inteligencia artificial como apoyo en la elaboración del documento, principalmente para mejorar la redacción y asegurar una estructura alineada con estándares profesionales de QA. Adicionalmente, se empleó como herramienta guía para reforzar conocimientos en el uso de Playwright y el manejo de iFrames, dado que es un framework con el cual no se cuenta aún con amplia experiencia.
 
 **¿Qué hiciste tú directamente (criterio humano)?**
 1. Definición y diseño de los casos de prueba, basados en el análisis funcional del sistema.
@@ -251,4 +265,5 @@ Se utilizó inteligencia artificial como apoyo en la elaboración del documento,
 5. Se validó manualmente que los resultados documentados correspondieran con el comportamiento real del sistema.
 
 **¿Qué riesgos ves en depender completamente de IA para QA?**
+
 Depender completamente de IA en QA implica varios riesgos. Aunque es muy útil para automatizar pruebas repetitivas y acelerar procesos, la IA no comprende completamente la experiencia de usuario ni el contexto real de las personas. Puede Validar que algo funcione, pero no necesariamente que sea usable o adecuado. Además, puede pasar por alto escenarios no previstos o comportamientos atípicos. Por eso, el criterio humano sigue siendo clave para asegurar calidad real, no solo técnica sino también funcional y de experiencia.
